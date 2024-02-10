@@ -5,6 +5,10 @@
 #ifndef UNITROOT_HPP
 #define UNITROOT_HPP
 
+
+#include <memory>
+
+
 namespace urt {
 
 //=================================================================================================

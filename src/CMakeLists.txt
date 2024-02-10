@@ -1,0 +1,1 @@
+add_library(URT STATIC ADF.cpp DFGLS.cpp KPSS.cpp OLS.cpp PP.cpp UnitRoot.cpp)
