@@ -21,9 +21,9 @@ target_link_libraries(URT PRIVATE OpenMP::OpenMP_CXX)
 #set(OPENBLAS_LIB "/usr/lib/x86_64-linux-gnu/libopenblas.a")
 
 target_compile_definitions(URT PRIVATE USE_ARMA)
-find_package(Armadillo REQUIRED)
-target_link_libraries(URT PRIVATE ${ARMADILLO_LIBRARIES})
-target_include_directories(URT PRIVATE ${ARMADILLO_INCLUDE_DIRS})
+#find_package(Armadillo REQUIRED)
+#target_link_libraries(URT PRIVATE ${ARMADILLO_LIBRARIES})
+target_include_directories(URT PRIVATE /usr/local/mlpack/include)
 
 #find_package(OpenBLAS REQUIRED)
 #target_link_libraries(URT PRIVATE OpenBLAS::OpenBLAS)
