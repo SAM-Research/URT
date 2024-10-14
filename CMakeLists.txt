@@ -18,7 +18,7 @@ find_package(OpenMP REQUIRED)
 target_link_libraries(URT PRIVATE OpenMP::OpenMP_CXX)
 
 #set(LAPACK_LIB "/usr/lib/x86_64-linux-gnu/lapack/liblapack.a")
-#set(OPENBLAS_LIB "/usr/lib/x86_64-linux-gnu/libopenblas.a")
+set(OPENBLAS_LIB "/usr/lib/x86_64-linux-gnu/libopenblas.a")
 
 target_compile_definitions(URT PRIVATE USE_ARMA)
 #find_package(Armadillo REQUIRED)
